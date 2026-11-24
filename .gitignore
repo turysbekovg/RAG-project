@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector database (rebuilt from the PDFs by model.ipynb)
+chroma/
+
+# PDF articles (large, and journal articles are usually copyrighted)
+datasets/
+
+# Secrets - never commit API keys
+json create/config.json
+.env
+
+# Logs and VS Code Code Runner leftovers
+json create/logs/
+*.log
+tempCodeRunnerFile.py
+
+# Screen recordings are over GitHub's 100 MB file limit
+*.mkv
+
+# Notebook checkpoints / OS junk
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

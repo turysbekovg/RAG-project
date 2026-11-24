@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+chromadb
+openai
+pypdf
+PyPDF2
+elsapy
+matplotlib
+numpy
+Pillow
